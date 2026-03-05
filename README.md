@@ -1,23 +1,30 @@
 # Personal Portfolio Website
+
 This repository contains the source code for my personal portfolio website. The website showcases my projects, technical skills, and background as a software engineer.
 
 It is designed to present selected projects, proviede information about my expirience, and make it easier for recruiters or potential clients to explore my work.
 
 ## Features
+
 - Personal introduction section
 - Featured projects showcase
 - Links to Github and LinkedIn
 
 ## Tech stack
+
 frontend:
+
 - HTML5
 - CSS3
 
 Other Tools:
+
 - Git
 - Github
 
 ## Project Structure
+
+```
 Project-1
  ┣ assets
  ┃ ┗ img
@@ -30,8 +37,10 @@ Project-1
  ┣ index.html
  ┣ README.md
  ┗ style.css
+```
 
 ## Installation
+
 Clone the repository:
 `git clone https://github.com/Revou-FSSE-Feb26/milestone-1-satria.git`
 
@@ -44,6 +53,7 @@ Open the project in your browser:
 Or simply open `index.html` using your browser
 
 ## Author
+
 Satria Pamungkas
 
 Github: https://github.com/sconos
