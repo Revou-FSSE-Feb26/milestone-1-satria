@@ -42,13 +42,13 @@ Project-1
 ## Installation
 
 Clone the repository:
-`git clone https://github.com/Revou-FSSE-Feb26/milestone-1-satria.git`
+```git clone https://github.com/Revou-FSSE-Feb26/milestone-1-satria.git```
 
 Navigate to the project folder:
-`cd milestone-1-satria`
+```cd milestone-1-satria```
 
 Open the project in your browser:
-`open index.html`
+```open index.html```
 
 Or simply open `index.html` using your browser
 
@@ -56,7 +56,8 @@ Or simply open `index.html` using your browser
 
 Satria Pamungkas
 
-Github: https://github.com/sconos
-LinkedIn: https://www.linkedin.com/in/satria-pamungkas-2a151423a/
+- Github:    https://github.com/sconos
+- LinkedIn:  https://www.linkedin.com/in/satria-pamungkas-2a151423a/
+- Email:     satriap1783@gmail.com
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2AGu9A8s)
