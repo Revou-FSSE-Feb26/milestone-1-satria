@@ -7,8 +7,15 @@ It is designed to present selected projects, proviede information about my expir
 ## Features
 
 - Personal introduction section
-- Featured projects showcase
-- Links to Github and LinkedIn
+- Responsive layout for desktop and mobile devices
+- Navigation menu for easy page access
+- Featured projects section
+- Dedicated projects page
+- About section with experience and education
+- Contact form for user messages
+- Social media links (GitHub, LinkedIn)
+- Clean and minimal UI design
+- Built using semantic HTML and modern CSS
 
 ## Tech stack
 
@@ -59,5 +66,9 @@ Satria Pamungkas
 - Github:    https://github.com/sconos
 - LinkedIn:  https://www.linkedin.com/in/satria-pamungkas-2a151423a/
 - Email:     satriap1783@gmail.com
+
+## Link
+
+link you can access: https://sconos.github.io/portfolio/
 
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/2AGu9A8s)
