@@ -1,18 +1,19 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="dark">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!--style-->
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
         <link rel="stylesheet" href="../css/style.css" />
 
         <title>Projects-Satria Pamungkas</title>
     </head>
-    <body>
-        <header class="header">
+    <body class="bg-white dark:bg-black dark:text-white text-black font-sans">
+        <header class="flex justify-between items-center px-10 py-2 bg-blue-600 dark:bg-slate-700">
             <!-- profile picture -->
-            <div class="logo">
+            <div class="size-[55px] block bg-cover bg-grey-600 overflow-hidden rounded-full object-cover">
                 <a href="../index.html">
                     <img src="../assets/images/profile.JPG" alt="Profile Picture" />
                 </a>
@@ -20,22 +21,22 @@
 
             <!-- Navbar -->
             <nav>
-                <ul>
-                    <li><a href="../index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="projects.html">Projects</a></li>
-                    <li><a href="">Contact</a></li>
+                <ul class="flex list-none m-0 p-0 overflow-hidden gap-10">
+                    <li class="float-right"><a href="../index.html" class="block text-white hover:bg-blue-400 p-4" aria-current="page">Home</a></li>
+                    <li class="float-right"><a href="#about-me" class="block text-white hover:bg-blue-400 p-4">About</a></li>
+                    <li class="float-right"><a href="#featured-projects" class="block text-white hover:bg-blue-400 p-4">Projects</a></li>
+                    <li class="float-right"><a href="#contact" class="block text-white hover:bg-blue-400 p-4">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
         <main style="margin: 20px 0;">
             <!-- Featured Projects -->
-            <section id="featured-projects">
-                <h2>List Projects</h2>
+            <section id="featured-projects" class="mt-8 max-w-screen-xl mx-auto">
+                <h2 class="text-2xl font-bold">List Projects</h2>
                 <hr />
-                <div class="list-projects">
-                    <article class="project-card">
+                <div class="list-projects grid grid-cols-3 grid-flow-rows gap-2 mt-8">
+                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
                         <figure class="project-image">
                             <img
                                 src="../assets/images/projects/dewita1.png"
@@ -58,7 +59,7 @@
                         </p>
                     </article>
 
-                    <article class="project-card">
+                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
                         <figure class="project-image">
                             <img
                                 src="../assets/images/projects/smart1.png"
@@ -79,7 +80,7 @@
                             Bootstrap, MySQL
                         </p>
                     </article>
-                    <article class="project-card">
+                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
                         <figure class="project-image">
                             <img
                                 src="../assets/images/projects/simta1.png"
@@ -103,7 +104,7 @@
                             Bootstrap, MySQL
                         </p>
                     </article>
-                    <article class="project-card">
+                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
                         <figure class="project-image">
                             <img
                                 src="../assets/images/projects/interspace1.png"
@@ -124,7 +125,7 @@
                             Tailwind CSS, PostgreSQL
                         </p>
                     </article>
-                    <article class="project-card">
+                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
                         <figure class="project-image">
                             <img src="../assets/images/projects/crm1.png" alt="CRM" />
                             <figcaption>Created By: Satria & Team</figcaption>
@@ -147,7 +148,7 @@
         </main>
 
         <!-- Footer -->
-        <footer>
+        <footer class="bg-blue-600 dark:bg-slate-700 text-white p-4 text-center">
             <p>&copy 2026 Satria Pamungkas</p>
         </footer>
     </body>

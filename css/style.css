@@ -1,6 +1,49 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+.cursor-animation{
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    bottom: 5px;
+    overflow: hidden;
+    animation: typing 3s steps(23, jump-start) infinite alternate;
+    animation-fill-mode: forwards;
+    white-space: nowrap;
+}
+
+.cursor-animation::after{
+    content:'';
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+    bottom: 3px;
+    margin-left: 5px;
+    height: 1.525rem;
+    border-right: solid black 2px;
+    animation: cursor 1s infinite;
+}
+
+@keyframes typing{
+    from{
+        width: 0ch;
+    }
+
+    to{
+        width: 23ch;
+    }
+}
+
+@keyframes cursor{
+    50%{
+        opacity: 0;
+    }
+}
+
+
 /* Header and Navbar */
 
-.logo{
+/* .logo{
     width: 65px;
     height: 65px;
     display: block;
@@ -54,10 +97,10 @@ body{
     background-color:#F9FAFB ;
     color:#111827 ;
     font-family: Arial, sans-serif;
-}
+} */
 
 /* Main content */
-main{
+/* main{
     margin-top: 2rem;
     padding: 0.25rem;
 }
@@ -172,12 +215,12 @@ fieldset{
     display: flex;
     flex-direction: column;
     gap: 10px;
-}
+} */
 
 /* Footer */
-footer{
+/* footer{
     background-color: #2563EB;
     color: white;
     padding: 1rem;
     text-align: center;
-}
+} */
