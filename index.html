@@ -1,79 +1,83 @@
 <!doctype html>
-<html lang="en" class="dark">
+<html lang="en">
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
         <!--style-->
-        <!-- <link rel="stylesheet" href="css/style.css" /> -->
-        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css" />
 
         <title>Home-Satria Pamungkas</title>
     </head>
-    <body class="bg-white dark:bg-black dark:text-white text-black font-sans">
-        <header class="flex justify-between items-center px-10 py-2 bg-blue-600 dark:bg-slate-700">
+    <body>
+        <header class="header">
             <!-- profile picture -->
-            <div class="size-[55px] block bg-cover bg-grey-600 overflow-hidden rounded-full object-cover">
+            <div class="logo">
                 <a href="index.html">
-                    <img src="assets/images/profile.JPG" alt="Profile Picture" />
+                    <img
+                        src="assets/images/profile.JPG"
+                        alt="Profile Picture"
+                    />
                 </a>
             </div>
 
             <!-- Navbar -->
             <nav>
-                <ul class="flex list-none m-0 p-0 overflow-hidden gap-10">
-                    <li class="float-right"><a href="#profile" class="block text-white hover:bg-blue-400 p-4" aria-current="page">Home</a></li>
-                    <li class="float-right"><a href="#about-me" class="block text-white hover:bg-blue-400 p-4">About</a></li>
-                    <li class="float-right"><a href="#featured-projects" class="block text-white hover:bg-blue-400 p-4">Projects</a></li>
-                    <li class="float-right"><a href="#contact" class="block text-white hover:bg-blue-400 p-4">Contact</a></li>
+                <ul>
+                    <li>
+                        <a href="#profile" class="current" aria-current="page"
+                            >Home</a
+                        >
+                    </li>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#featured-projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
                 </ul>
             </nav>
         </header>
 
-        <main class="m-8 p-1">
-            <section id="profile" class="my-6 mx-auto flex items-stretch justify-center gap-10">
-                <div class="shrink-0 grow-0 basis-72">
-                    <img src="assets/images/profile.JPG" alt="Profile Picture" class="mr-1 max-w-full h-auto rounded-md"/>
+        <main class="container">
+            <section id="profile">
+                <div class="main-photo">
+                    <img
+                        src="assets/images/profile.JPG"
+                        alt="Profile Picture"
+                    />
                 </div>
 
-                <div class="max-w-xl flex-1">
-                    <h1 class="text-3xl p-4 font-bold">
-                        Hi, I'm Satria Pamungkas, a software engineer.
-                        <span class="cursor-animation"> Build, Maintain, Deploy</span>
-                    </h1>
-                    
+                <div class="description">
+                    <h1>Hi, I'm Satria Pamungkas, a software engineer <span class="cursor-animation">Build, Maintain, Deploy</span></h1>
 
-                    <p class="p-4">
+                    <p>
                         I build scalable web applications and solve complex
                         problems with clean, efficient code.
                     </p>
-                    <div class="flex gap-5 mb-2 p-4">
+                    <div class="social-icon">
                         <a
                             href="https://github.com/sconos"
                             target="_blank"
-                            class="inline-flex items-center gap-2"
+                            class="icon"
                         >
-                            <img src="assets/icon/Github.svg" alt="Github" class="w-7 h-7"
+                            <img src="assets/icon/Github.svg" alt="Github"
                         /></a>
                         <a
                             href="https://www.linkedin.com/in/satria-pamungkas-2a151423a/"
                             target="_blank"
-                            class="inline-flex items-center gap-2"
+                            class="icon"
                         >
-                            <img src="assets/icon/LinkedIn.svg" alt="LinkedIn" class="w-7 h-7"
+                            <img src="assets/icon/LinkedIn.svg" alt="LinkedIn"
                         /></a>
                         <a
                             href="mailto:Satriap1783@gmail.com"
                             target="_blank"
-                            class="inline-flex items-center gap-2"
-                            ><img src="assets/icon/email.svg" alt="Email" class="w-7 h-7"
+                            class="icon"
+                            ><img src="assets/icon/email.svg" alt="Email"
                         /></a>
 
-                        <p class="inline-flex items-center gap-2">
+                        <p class="location">
                             <img
                                 src="assets/icon/Location.svg"
-                                alt="location" class="w-7 h-7"
+                                alt="location"
                             />
                             Bali, Indonesia
                         </p>
@@ -82,19 +86,17 @@
             </section>
 
             <!-- About Me -->
-            <section id="about-me" class="my-8 mx-auto max-w-4xl">
-                <h2 class="text-2xl font-bold pb-4">About Me</h2>
+            <section id="about-me">
+                <h2>About Me</h2>
                 <div class="about-container">
                     <div class="about-text">
-                        <p class="pb-4">
+                        <p>
                             I am a software engineer who enjoys building web
                             applications that solve real-world problems. My
                             experience includes developing POS systems, project
                             management tools, and data-driven applications using
                             technologies such as Laravel, Next.js, and
-                            PostgreSQL. 
-                            
-                            I am particularly interested in backend
+                            PostgreSQL. I am particularly interested in backend
                             development, system architecture, and integrating
                             data or machine learning features to improve
                             decision-making in applications.
@@ -102,7 +104,7 @@
                     </div>
 
                     <div class="experience">
-                        <h3 class="text-xl pb-4 font-bold">Work Experience</h3>
+                        <h3>Work Experience</h3>
                         <ul>
                             <li>
                                 <strong>Software Engineer</strong> - Interlace
@@ -121,7 +123,7 @@
                     </div>
 
                     <div class="education">
-                        <h3 class="text-xl py-4 font-bold">Education</h3>
+                        <h3>Education</h3>
                         <ul>
                             <li>
                                 <strong
@@ -137,9 +139,9 @@
                         </ul>
                     </div>
 
-                    <div class="flex gap-7">
-                        <div class="flex-1">
-                            <h3 class="text-xl py-4 font-bold">Hard Skills</h3>
+                    <div class="skills">
+                        <div class="hard-skill">
+                            <h3>Hard Skills</h3>
                             <ul>
                                 <li>Programming Languages: Java, PHP</li>
                                 <li>Frameworks: Laravel, CodeIgniter3</li>
@@ -148,8 +150,8 @@
                             </ul>
                         </div>
 
-                        <div class="flex-1">
-                            <h3 class="text-xl py-4 font-bold">Soft Skills</h3>
+                        <div class="soft-skill">
+                            <h3>Soft Skills</h3>
                             <ul>
                                 <li>Communication</li>
                                 <li>Teamwork</li>
@@ -162,19 +164,19 @@
             </section>
 
             <!-- Featured Projects -->
-            <section id="featured-projects" class="mt-8 max-w-screen-xl mx-auto">
-                <h2 class="text-2xl font-bold">Featured Projects</h2>
+            <section id="featured-projects">
+                <h2>Featured Projects</h2>
                 <hr />
-                <div class="flex justify-center items-stretch gap-5 mt-4">
-                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
+                <div class="list-projects">
+                    <article class="project-card">
                         <figure class="project-image">
                             <img
                                 src="assets/images/projects/dewita1.png"
-                                alt="Dewita" class="max-w-full h-auto rounded-md"
+                                alt="Dewita"
                             />
                             <figcaption>Created By: Satria & Team</figcaption>
                         </figure>
-                        <h3 class="py-2 font-bold">SI Dewita</h3>
+                        <h3>SI Dewita</h3>
                         <p>
                             A web-based village tourism management system that
                             helps administrators manage destinations, events,
@@ -188,17 +190,17 @@
                             MySQL
                         </p>
                     </article>
-                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
+                    <article class="project-card">
                         <figure class="project-image">
                             <img
                                 src="assets/images/projects/smart1.png"
-                                alt="SMART Toko" class="max-w-full h-auto rounded-md"
+                                alt="SMART Toko"
                             />
                             <figcaption>
                                 Created By: Satria Pamungkas
                             </figcaption>
                         </figure>
-                        <h3 class="py-2 font-bold">SMART Toko</h3>
+                        <h3>SMART Toko</h3>
                         <p>
                             A full-featured POS and inventory management system
                             with accounting and reporting modules. Integrated
@@ -211,17 +213,17 @@
                             Bootstrap, MySQL
                         </p>
                     </article>
-                    <article class="group bg-white dark:bg-black dark:text-white border border-solid border-slate-300 rounded-md p-4 shrink grow basis-72 max-w-sm transition delay-150 duration-300 ease-in-out hover:-translate-y-4">
+                    <article class="project-card">
                         <figure class="project-image">
                             <img
                                 src="assets/images/projects/interspace1.png"
-                                alt="Dewita" class="max-w-full h-auto rounded-md"
+                                alt="Dewita"
                             />
                             <figcaption>
                                 Created By: Satria Pamungkas
                             </figcaption>
                         </figure>
-                        <h3 class="py-2 font-bold">Project Management System</h3>
+                        <h3>Project Management System</h3>
                         <p>
                             A web-based project management system designed to
                             track tasks, deadlines, and team collaboration.
@@ -237,22 +239,26 @@
                 </div>
                 <a
                     href="pages/projects.html"
-                    class="flex justify-end my-4 hover:bg-grey-300 hover:text-blue-700"
+                    style="
+                        display: flex;
+                        justify-content: flex-end;
+                        margin-top: 1rem;
+                    "
                     >View All Projects</a
                 >
                 <hr />
             </section>
 
-            <section id="contact" class="my-8 mx-auto items-center justify-center p-4 w-3/5 border border-solid border-black dark:bg-black dark:border-white">
-                <h2 class="font-bold">Contact Me</h2>
-                <p class="pb-4">
+            <section id="contact">
+                <h2>Contact Me</h2>
+                <p>
                     have any questions or would like to get in touch, feel free
                     to reach out!
                 </p>
 
                 <form action="https://formspree.io/f/xgonoaqy" method="POST">
-                    <fieldset class="flex flex-col gap-2">
-                        <legend class="pb-4">Contact Form:</legend>
+                    <fieldset>
+                        <legend>Contact Form:</legend>
                         <label for="name">Name:</label>
                         <input
                             type="text"
@@ -260,7 +266,6 @@
                             name="name"
                             placeholder="Input Your name here"
                             required
-                            class="border pl-2"
                         />
                         <label for="email">Email:</label>
                         <input
@@ -269,7 +274,6 @@
                             name="email"
                             placeholder="user@example.com"
                             required
-                            class="border pl-2"
                         />
                         <label for="message">Message:</label>
                         <textarea
@@ -278,17 +282,16 @@
                             placeholder="Input your message here"
                             rows="4"
                             required
-                            class="border pl-2"
                         ></textarea>
                         <br />
-                        <input type="submit" id="submit" class="bg-blue-600 text-white w-3/12 h-8 mx-auto hover:text-gray-600 hover:bg-blue-400" />
+                        <input type="submit" id="submit" />
                     </fieldset>
                 </form>
             </section>
         </main>
 
         <!-- Footer -->
-        <footer class="bg-blue-600 dark:bg-slate-700 text-white p-4 text-center">
+        <footer>
             <p>&copy 2026 Satria Pamungkas</p>
         </footer>
     </body>

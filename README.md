@@ -7,7 +7,7 @@ It is designed to present selected projects, proviede information about my expir
 ## Features
 
 - Personal introduction section
-- Responsive layout for desktop and mobile devices
+- Responsive layout for desktop, tablets and mobile devices
 - Navigation menu for easy page access
 - Featured projects section
 - Dedicated projects page
@@ -16,6 +16,7 @@ It is designed to present selected projects, proviede information about my expir
 - Social media links (GitHub, LinkedIn)
 - Clean and minimal UI design
 - Built using semantic HTML and modern CSS
+- Adding animation tying and transition on project list
 
 ## Tech stack
 
