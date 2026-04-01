@@ -6,17 +6,17 @@ It is designed to present selected projects, proviede information about my expir
 
 ## Features
 
-- Personal introduction section
-- Responsive layout for desktop, tablets and mobile devices
-- Navigation menu for easy page access
-- Featured projects section
+- Personal introduction section (Hero Section)
+- Responsive design (desktop, tablets and mobile devices)
+- Multi Page Navigation (Home & Project Page)
+- Featured projects with image and description
 - Dedicated projects page
-- About section with experience and education
-- Contact form for user messages
-- Social media links (GitHub, LinkedIn)
+- About section (experience, education and skills)
+- Contact form using Formspree
+- Social media links (GitHub, LinkedIn, Email)
 - Clean and minimal UI design
 - Built using semantic HTML and modern CSS
-- Adding animation tying and transition on project list
+- CSS animation (typing and hover transitions)
 
 ## Tech stack
 
@@ -68,7 +68,7 @@ Satria Pamungkas
 - LinkedIn:  https://www.linkedin.com/in/satria-pamungkas-2a151423a/
 - Email:     satriap1783@gmail.com
 
-## Link
+## Live Demo
 
 link you can access: https://revou-fsse-feb26.github.io/milestone-1-satria/
 
