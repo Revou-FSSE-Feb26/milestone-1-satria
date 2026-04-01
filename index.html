@@ -7,6 +7,18 @@
         <!--style-->
         <link rel="stylesheet" href="css/style.css" />
 
+        <!-- font -->
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap"
+            rel="stylesheet"
+        />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+
         <title>Home-Satria Pamungkas</title>
     </head>
     <body>
@@ -46,13 +58,18 @@
                 </div>
 
                 <div class="description">
-                    <h1>Hi, I'm Satria Pamungkas, a software engineer <span class="cursor-animation">Build, Maintain, Deploy</span></h1>
+                    <h1>
+                        Hi, I'm Satria Pamungkas, a software engineer
+                        <span class="cursor-animation"
+                            >Build, Maintain, Deploy</span
+                        >
+                    </h1>
 
                     <p>
                         I build scalable web applications and solve complex
                         problems with clean, efficient code.
                     </p>
-                    <div class="social-icon">
+                    <div class="social-icons">
                         <a
                             href="https://github.com/sconos"
                             target="_blank"
@@ -105,21 +122,59 @@
 
                     <div class="experience">
                         <h3>Work Experience</h3>
-                        <ul>
-                            <li>
-                                <strong>Software Engineer</strong> - Interlace
-                                Studies bali <br />june 2025 - present
-                            </li>
-                            <li>
-                                <strong>Intern Software Engineer</strong> - PT.
-                                Dimata Sora Jayate <br />august 2024 - February
-                                2025
-                            </li>
-                            <li>
-                                <strong>Intern Web Developer</strong> - DigiBali
-                                <br />July 2019 - Oct 2019
-                            </li>
-                        </ul>
+                        <div class="timeline">
+                            <h4>Software Engineer - Interlace Studies bali</h4>
+                            <small>June 2025 - present</small>
+                            <ul>
+                                <li>
+                                    Design and develop a Project Management
+                                    System using Next.js and Express
+                                </li>
+                                <li>
+                                    Build an Attendance Tracking web application
+                                    using Laravel
+                                </li>
+                                <li>
+                                    Develop a Customer Relationship Management
+                                    (CRM) System using Laravel and Tailwind CSS
+                                </li>
+                                <li>
+                                    Collaborated on feature development,
+                                    debugging, and system improvements
+                                </li>
+                            </ul>
+                            <h4>
+                                Intern Software Engineer - PT. Dimata Sora
+                                Jayate
+                            </h4>
+                            <small>August 2024 - February 2025</small>
+                            <ul>
+                                <li>
+                                    Maintained and improve existing web
+                                    applications in a production environment
+                                </li>
+                                <li>
+                                    Fixed bugs and resolved issues to enhance
+                                    system stability
+                                </li>
+                                <li>
+                                    Implemented minor features and enhancements
+                                    based on project requirements
+                                </li>
+                            </ul>
+                            <h4>Intern Web Developer - DigiBali</h4>
+                            <small>July 2019 - Oct 2019t</small>
+                            <ul>
+                                <li>
+                                    Developed and customized a travel agency
+                                    website using WordPress
+                                </li>
+                                <li>
+                                    Assisted in website maintenance and content
+                                    updates
+                                </li>
+                            </ul>
+                        </div>
                     </div>
 
                     <div class="education">
@@ -172,7 +227,7 @@
                         <figure class="project-image">
                             <img
                                 src="assets/images/projects/dewita1.png"
-                                alt="Dewita"
+                                alt="SI Dewita project preview"
                             />
                             <figcaption>Created By: Satria & Team</figcaption>
                         </figure>
@@ -185,7 +240,7 @@
                             reduced manual reporting process by digitizing
                             visitor and revenue tracking.
                         </p>
-                        <p>
+                        <p class="tech-stack">
                             <strong>Tech Stack:</strong> Laravel, Bootstrap,
                             MySQL
                         </p>
@@ -194,7 +249,7 @@
                         <figure class="project-image">
                             <img
                                 src="assets/images/projects/smart1.png"
-                                alt="SMART Toko"
+                                alt="SMART Toko project preview"
                             />
                             <figcaption>
                                 Created By: Satria Pamungkas
@@ -208,7 +263,7 @@
                             based on historical sales and holiday patterns using
                             time-series forecasting and association rule mining.
                         </p>
-                        <p>
+                        <p class="tech-stack">
                             <strong>Tech Stack:</strong> Laravel, Flask,
                             Bootstrap, MySQL
                         </p>
@@ -217,7 +272,7 @@
                         <figure class="project-image">
                             <img
                                 src="assets/images/projects/interspace1.png"
-                                alt="Dewita"
+                                alt="Project Management System project preview"
                             />
                             <figcaption>
                                 Created By: Satria Pamungkas
@@ -231,7 +286,7 @@
                             progress monitoring to improve project transparency
                             and efficiency.
                         </p>
-                        <p>
+                        <p class="tech-stack">
                             <strong>Tech Stack:</strong> NextJs, ExpressJS,
                             Tailwind CSS, PostgreSQL
                         </p>
@@ -252,7 +307,7 @@
             <section id="contact">
                 <h2>Contact Me</h2>
                 <p>
-                    have any questions or would like to get in touch, feel free
+                    Have any questions or would like to get in touch, feel free
                     to reach out!
                 </p>
 
